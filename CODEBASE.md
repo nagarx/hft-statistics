@@ -2,7 +2,7 @@
 
 > **Purpose**: Deep technical reference for every module, type, formula, and invariant in the `hft-statistics` crate. An LLM coder (or human) should be able to understand the exact mathematical computation, data flow, edge case handling, and serialization strategy for every public type without reading the source code.
 >
-> **Version**: 0.1.0 | **Tests**: 94 | **Lines**: ~2,900 | **Clippy**: 0 warnings
+> **Version**: 0.1.0 | **Tests**: 94 | **Lines**: ~3,100 | **Clippy**: 0 warnings
 
 ---
 
@@ -526,4 +526,4 @@ Defined independently in 4 files (intraday_curve, intraday_correlation, regime, 
 
 ---
 
-*Last updated: April 9, 2026. Covers hft-statistics v0.1.0 (94 tests, 2,896 lines).*
+*Last updated: April 9, 2026. Covers hft-statistics v0.1.0 (94 tests, ~3,100 lines).*
