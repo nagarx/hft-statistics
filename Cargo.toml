@@ -1,0 +1,20 @@
+[package]
+name = "hft-statistics"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+authors = ["nagarx"]
+description = "Shared streaming statistical primitives and time utilities for HFT pipeline profilers"
+license = "LicenseRef-Proprietary"
+keywords = ["statistics", "streaming", "hft", "welford", "reservoir"]
+categories = ["finance", "science"]
+
+[lib]
+name = "hft_statistics"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
